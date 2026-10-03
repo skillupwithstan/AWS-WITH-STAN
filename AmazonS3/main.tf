@@ -13,8 +13,8 @@ provider "aws" {
 }
 
 # Create a S3 bucket
-resource "aws_s3_bucket" "stan-test-bucket-101" {
-  bucket = "stan-test-bucket-101"
+resource "aws_s3_bucket" "stan-test-bucket-102" {
+  bucket = "stan-test-bucket-102"
 
   tags = {
     Name        = "My bucket"
