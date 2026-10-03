@@ -21,3 +21,13 @@ resource "aws_s3_bucket" "stan-test-bucket-102" {
     Environment = "Dev"
   }
 }
+
+# Create 2nd S3 bucket
+resource "aws_s3_bucket" "stan-test-bucket-103" {
+  bucket = "stan-test-bucket-103"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
